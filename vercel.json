@@ -11,8 +11,7 @@
       }
     ],
     "routes": [
-      { "src": "/backend/(.*)", "dest": "/index.js" }, 
-      { "src": "/(.*)", "dest": "/src/index.html" }
+      { "src": "/(.*)", "dest": "index.js" }
     ]
   }
   
